@@ -148,6 +148,7 @@ const EditComp = () => {
 
 
   return (
+
     <div>
       <div className="container-editdata">
         <div className="editdata">
@@ -216,7 +217,7 @@ const EditComp = () => {
                     placeholder="Upload Foto Mobil"
                     className="input-adddata"
                   />
-                  
+                  <p className="notice">Wajib Untuk Mengupload ulang foto mobil.</p>
                   {listcar.image === null ? (
                     <Card.Img src={imageNotFound} id="previmage-car" />
                   ) : (

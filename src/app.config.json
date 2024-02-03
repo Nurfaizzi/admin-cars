@@ -1,0 +1,19 @@
+{
+
+    "apps":[
+    
+    {
+    
+    "name":"admin-car-rental",
+    
+    "script":"npx",
+    
+    "interpreter":"none",
+    
+    "args":"serve -s build -p 5174"
+    
+    }
+    
+    ]
+    
+    }

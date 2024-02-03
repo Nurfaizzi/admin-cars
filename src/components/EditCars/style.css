@@ -140,6 +140,10 @@ line-height: 14px; /* 140% */
   border: none;
 }
 
+.notice{
+    color :red
+}
+
 
 #previmage-car{
     display: flex;
