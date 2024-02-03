@@ -220,7 +220,7 @@ const CompAllCar = ({car}) => {
                   variant="outline-danger"
                   className="button-card"
                   onClick={() => handleConfirmModalDelete()}
-                ><i class="fa-solid fa-trash" id="icon-delete"></i>
+                ><i className="fa-solid fa-trash" id="icon-delete"></i>
                   Delete
                 </Button>
               </div>

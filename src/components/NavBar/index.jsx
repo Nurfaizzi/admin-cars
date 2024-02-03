@@ -59,7 +59,6 @@ setSearchParams({name : searchCars})
         <Link to={'/'}>
         <h1 className="box-abu"></h1>
         </Link>
-        {/* <i class="fa-solid fa-bars fa-xl"></i> */}
         </div>
       
         <div className="form-search">

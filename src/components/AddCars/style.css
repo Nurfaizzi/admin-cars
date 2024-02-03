@@ -171,12 +171,9 @@ line-height: 24px; /* 150% */
   }
 }
 
-@media screen and (min-width: 900px) {
-}
-
 @media (min-width: 1440px) {
   .container-form {
-    width: 240%;
+    width: 231%;
     margin-top: 16px;
     display: flex;
     border-radius: 5px;
