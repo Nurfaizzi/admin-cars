@@ -1,15 +1,15 @@
-import React from "react"
-import SideBar from "../../components/SideBar"
-
-
+import React from "react";
+import SideBar from "../../components/SideBar";
+import NavbarTop from "../../components/NavBar";
+import EditComp from "../../components/EditCars";
 const EditPage = () => {
+  return (
+    <div>
+      <SideBar />
+      <NavbarTop />
+      <EditComp />
+    </div>
+  );
+};
 
-    return (
-        <div>
-            <h1>Edit Page</h1>
-            <SideBar/>
-        </div>
-    )
-}
-
-export default EditPage
+export default EditPage;

@@ -6,24 +6,15 @@ import CarPage from './pages/CarPage'
 import AddPage from './pages/AddPage'
 import EditPage from './pages/EditPage'
 import LoginPage from './pages/LoginPage'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useRoutes } from "react-router-dom";
+import AddCars from './components/AddCars'
+import { routes } from './routes'
 
 
-function App() {
+const App = () => {
+  let element = useRoutes(routes)
+  return element
 
-  return (
-    
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<DashboardPage />} />  
-      <Route path="/car" element={<CarPage />} />
-      <Route path="/add" element={<AddPage />} />
-      <Route path="/edit" element={<EditPage />} />
-     <Route path="/login" element={<LoginPage />} />
+};
 
-    </Routes>
-  </BrowserRouter>
-  )
-}
-
-export default App
+export default App;

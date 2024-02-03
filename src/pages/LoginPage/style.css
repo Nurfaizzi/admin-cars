@@ -1,0 +1,51 @@
+
+  
+  .container-form-login {
+    width: 70%;
+  }
+  
+  .container-right-login {
+  
+    padding: 0 !important;
+    width: 50%;
+    color: #fff;
+    overflow: hidden;
+    max-height: 100vh;
+  }
+  
+  .container-left-login {
+    padding-right: 0 !important;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  
+  }
+  
+  .container-login {
+    min-height: 100vh;
+  }
+  
+  .container-right-login .image-formlogin {
+    height: 100%;
+    background:  lightgray 50% / cover no-repeat;
+    object-fit: cover;
+    object-position: left top;
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .container-right-login {
+      display: none;
+    }
+  
+    .container-left-login {
+      width: 100%;
+    }
+  
+    .container-login p {
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-addData {
+  position: absolute;
+  left: 298px;
+  top: 99px;
+}
+
+.backto-list-cars {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.addData {
+  margin-top: 0px;
+  display: flex;
+}
+
+.heading-pageadd {
+  color: var(--Neutral-01, #000);
+  font-family: Arial;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 150% */
+}
+
+.container-subheading-pageadd {
+  margin-top: 32px;
+  display: flex;
+}
+
+.heading-addnewcar {
+  color: #222;
+
+  /* Text S/Light */
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18px; /* 150% */
+}
+
+.subheading-pageadd {
+  color: var(--Neutral-01, #000);
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 150% */
+}
+
+.container-form {
+  width: 930px;
+  margin-top: 16px;
+  display: flex;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+  margin-right: 25px;
+}
+
+.formulir {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label-add {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.input-adddata,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 12px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+}
+
+.max-sizefoto {
+  color: var(--Neutral-03, #8a8a8a);
+  font-family: Rubik;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 14px; /* 140% */
+}
+
+#button-saveadddata {
+  color: var(--neutral-01, #fff);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background: blue;
+  border: none;
+}
+
+#button-saveadddata:disabled,
+#button-saveadddata[disabled] {
+  color: var(--neutral-01, #fff);
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  background: blue;
+  border: none;
+}
+
+.alert-inputfield {
+  color: red;
+}
+
+.add-carssucces{
+  display: flex;
+width: 550px;
+padding: 12px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+background: var(--Allert-Success, #73CA5C);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+color: var(--Neutral-10, #FFF);
+text-align: center;
+
+/* Text L/Medium */
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+}
+
+@media (min-width: 1440px) {
+  .container-form {
+    width: 240%;
+    margin-top: 16px;
+    display: flex;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 25px;
+  }
+}

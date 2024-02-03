@@ -1,30 +1,46 @@
 .sidebar {
-    height: 100%;
-    width: 99px;
-    position: fixed;
-    background-color: #0D28A6;
-    padding-top: 20px;
-    font-family: Arial;
-  }
+  height: 100%;
+  width: 99px;
+  position: fixed;
+  background-color: #0D28A6;
+  font-family: Arial;
+}
 
-  .sidebar a {
-    padding: 1px 7px 16px;
-    text-decoration: none;
-    font-size: 15px;
-    color: #FFFFFF;
-    display: block;
-  }
+.sidebar a {
+  padding: 1px 7px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  display: block;
+}
 
-  .sidebar img {
-    padding: 10px 30px;
+.sidebar p {
+  font-size: 15px;
+  color: #FFFFFF;
+}
 
-  }
+.sidebar img {
+  padding: 10px 30px;
 
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
+}
 
-  #mobil {
-    padding: 1px 24px;
+.sidebar a:hover {
+  color: #f1f1f1;
+}
 
-  }
+#mobil {
+  padding: 1px 24px;
+
+}
+
+#text-cars {
+  padding: 1px 24px;}
+
+#text-dashboard {
+  padding: 1px 10px;
+}  
+
+
+.menu-nav {
+  margin-top: 5px;
+}

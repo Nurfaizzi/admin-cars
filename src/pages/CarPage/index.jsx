@@ -1,14 +1,22 @@
-import React from "react"
-import SideBar from "../../components/SideBar"
-import CarCard from "../../components/CarCard"
+import React from "react";
+import SideBar from "../../components/SideBar";
+import CarCard from "../../components/CarCard";
+import NavbarTop from "../../components/NavBar";
+import "./style.css";
+import CompAllCar from "../../components/CompAllCars";
 const CarPage = () => {
+  return (
+    <div>
+      <SideBar menu={"car"}/>
 
-    return (
-        <div>
-             <SideBar />
-             <CarCard/>
-        </div>
-    )
-}
+      <NavbarTop />
 
-export default CarPage
+      <div className="page-car">
+        <CompAllCar />
+
+      </div>
+    </div>
+  );
+};
+
+export default CarPage;

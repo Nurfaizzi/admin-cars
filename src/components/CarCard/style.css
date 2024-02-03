@@ -1,8 +1,27 @@
-.car-list {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    gap: 15px;
-    padding-left: 140px;
-    padding-top: 200px;
+.side-car {
+   margin: 0px 100px 0px;
+    background-color: white;
+    position: fixed;
+    font-family: Arial;    
+    height: 100%;
+ }
+ 
+ .side-car p {
+    color: gray;
+    margin-bottom: 0px;
+    margin-right: 63px;
+    padding: 15px 11px;
     
-  }
+    
+   
+ }
+ 
+ .side-car a {
+  color: black;
+  padding: 0px 7px;
+    
+ }
+ 
+ #list-car-button:hover {
+   color: #aaa9a9;
+ }
